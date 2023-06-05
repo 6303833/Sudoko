@@ -1,0 +1,35 @@
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.sudoku-grid {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #c58080;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  margin-top: 20px;
+}
